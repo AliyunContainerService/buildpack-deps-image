@@ -1,0 +1,3 @@
+FROM buildpack-deps:trusty-curl
+MAINTAINER Li Yi <denverdino@gmail.com>
+COPY sources.list /etc/apt/sources.list
